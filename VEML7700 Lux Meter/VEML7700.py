@@ -59,11 +59,11 @@ VEML7700_POWERSAVE_MODE4 = const(0x03)
 # ---------------------------------------------------------------------------
 # read_lux() method selectors
 # ---------------------------------------------------------------------------
-VEML_LUX_NORMAL = const(0)   # raw lux, waits for fresh sample
-VEML_LUX_CORRECTED = const(1)   # polynomial-corrected, waits
-VEML_LUX_AUTO = const(2)   # auto gain/IT selection
-VEML_LUX_NORMAL_NO_WAIT = const(3)   # raw lux, no wait
-VEML_LUX_CORRECTED_NO_WAIT = const(4) # corrected, no wait
+VEML_LUX_NORMAL = const(0)   
+VEML_LUX_CORRECTED = const(1)   
+VEML_LUX_AUTO = const(2)  
+VEML_LUX_NORMAL_NO_WAIT = const(3)   
+VEML_LUX_CORRECTED_NO_WAIT = const(4) 
 
 VEML7700_AUTO_DARK_THRESHOLD = const(100)
 VEML7700_AUTO_BRIGHT_THRESHOLD = const(60000)
